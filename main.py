@@ -768,7 +768,7 @@ async def process_title_selection(callback_query: CallbackQuery, tmdb_id: str, m
                 'movie_p': title_data.get('name', 'N/A'),
                 'year_p': title_data.get('first_air_date', 'N/A')[:4] if title_data.get('first_air_date') else 'N/A',
             }
-            additional_message = f"""`[PirecyKings3] S{{season}} E{{episode}} {series_data['movie_p']} ({series_data['year_p']}) @pirecykings3`
+            additional_message = f"""`[PirecyKings3] S{{season}} E{{episode}} {series_data['movie_p']} @pirecykings3`
 
 `S01 English - Hindi [480p]`
 
